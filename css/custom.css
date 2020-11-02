@@ -92,7 +92,9 @@
 	-ms-transform: scale(1.2);
 }
 
-
+.list-inline-item{
+    font-size: 1.4em;
+}
 
 /*--//slider-up-arrow--*/
 /*---- responsive-design -----*/
