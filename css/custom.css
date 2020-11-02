@@ -2,6 +2,9 @@
 /* .work {
     background: #000;
 } */
+.work,.education,.skills{
+	padding:6em 0;
+}
 .work-left {
     text-align: right;
     padding: 3em 5em 0 0;
@@ -38,7 +41,7 @@
     display: inline-block;
     padding: 0 1.2em;
 }
-.work-info h5 span.fa-briefcase {
+.work-info h5 span.fa {
     font-size: 0.9em;
     color: #fff;
     background: #333;
@@ -55,11 +58,11 @@
     -o-transform: scale(1);
     -ms-transform: scale(1);
 }
-.work-right h5 span.fa-briefcase {
+.work-right h5 span.fa {
     margin-right: 5em;
     margin-left: -8em;
 }
-.work-left2 h5 span.fa-briefcase {
+.work-left2 h5 span.fa {
     margin-left: 4em;
     margin-right: -7.3em;
     z-index: 9;
@@ -80,7 +83,7 @@
 .work-right.work-right2 h4 {
     margin-top: 0.8em;
 }
-.work-info:hover h5 span.fa-briefcase {
+.work-info:hover h5 span.fa {
     color: #f0c5c5;
 	-webkit-transform: scale(1.2);
 	-moz-transform: scale(1.2);
@@ -94,6 +97,9 @@
 /*--//slider-up-arrow--*/
 /*---- responsive-design -----*/
 @media(max-width:1366px){
+    .work,.education,.skills{
+        padding: 5em 0;
+    }
     .work-right.work-right2 {
         min-height: 200px;
     }
@@ -103,6 +109,9 @@
 }
 
 @media(max-width:1080px){
+    .work, .education, .skills{
+        padding: 4em 0;
+    }
     .work-right {
         padding: 2.5em 0 0.5em 6em;
     }
@@ -136,8 +145,20 @@
         }
 }
 
+@media(max-width:800px){
+    .work, .education, .skills {
+        padding: 3em 0;
+    }
+    h3.title {
+        font-size: 3.3em;
+        margin-bottom: 0.6em;
+    }
+}
 
 @media(max-width:640px){
+    .work, .education, .skills {
+        padding: 2em 0;
+    }
     h3.title {
         font-size: 2.8em;
         margin-bottom: 0.5em;
@@ -223,7 +244,9 @@
     }
 }
 @media(max-width:320px){
-
+    .work, .education, .skills {
+        padding: 1em 0;
+    }
     h3.title {
         font-size: 2em;
     }
